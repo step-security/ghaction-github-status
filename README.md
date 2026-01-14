@@ -1,9 +1,5 @@
 [![GitHub release](https://img.shields.io/github/release/step-security/ghaction-github-status.svg?style=flat-square)](https://github.com/step-security/ghaction-github-status/releases/latest)
-[![GitHub marketplace](https://img.shields.io/badge/marketplace-github--status-blue?logo=github&style=flat-square)](https://github.com/marketplace/actions/github-status)
 [![Test workflow](https://img.shields.io/github/actions/workflow/status/step-security/ghaction-github-status/test.yml?branch=master&label=test&logo=github&style=flat-square)](https://github.com/step-security/ghaction-github-status/actions?workflow=test)
-[![Codecov](https://img.shields.io/codecov/c/github/step-security/ghaction-github-status?logo=codecov&style=flat-square)](https://codecov.io/gh/step-security/ghaction-github-status)
-[![Become a sponsor](https://img.shields.io/badge/sponsor-crazy--max-181717.svg?logo=github&style=flat-square)](https://github.com/sponsors/crazy-max)
-[![Paypal Donate](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square)](https://www.paypal.me/crazyws)
 
 ## About
 
@@ -17,7 +13,6 @@ ___
   * [Trigger error if GitHub services are down](#trigger-error-if-github-services-are-down)
 * [Customizing](#customizing)
   * [inputs](#inputs)
-* [Contributing](#contributing)
 * [License](#license)
 
 ## Features
@@ -49,7 +44,7 @@ jobs:
         uses: step-security/ghaction-github-status@v4
       -
         name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 ```
 
 ### Trigger error if GitHub services are down
@@ -79,7 +74,7 @@ jobs:
           pages_threshold: partial_outage
       -
         name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 ```
 
 ## Customizing
@@ -105,14 +100,6 @@ Following inputs can be used as `step.with` keys
 > * **¹** Accepted values are `minor`, `major`, `critical` or `maintenance`.
 > * **²** Accepted values are `operational`, `degraded_performance`, `partial_outage` `major_outage`, `under_maintenance`.
 
-## Contributing
-
-Want to contribute? Awesome! The most basic way to show your support is to star
-the project, or to raise issues. You can also support this project by [**becoming a sponsor on GitHub**](https://github.com/sponsors/crazy-max)
-or by making a [PayPal donation](https://www.paypal.me/crazyws) to ensure this
-journey continues indefinitely!
-
-Thanks again for your support, it is much appreciated! :pray:
 
 ## License
 
