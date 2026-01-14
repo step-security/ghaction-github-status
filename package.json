@@ -18,7 +18,7 @@
     "status",
     "monitoring"
   ],
-  "author": "CrazyMax",
+  "author": "step-security",
   "license": "MIT",
   "packageManager": "yarn@3.6.3",
   "dependencies": {
