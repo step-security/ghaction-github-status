@@ -1,0 +1,46 @@
+# https://help.github.com/en/articles/metadata-syntax-for-github-actions
+name: 'GitHub Status'
+description: "GitHub Action to check GitHub Status in your workflow"
+author: 'step-security'
+branding:
+  color: 'orange'
+  icon: 'alert-triangle'
+
+inputs:
+  overall_threshold:
+    description: 'Defines threshold for overall status (also called rollup) of GitHub to fail the job (minor, major or critical)'
+    required: false
+  git_threshold:
+    description: 'Defines threshold for Git Operations to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  api_threshold:
+    description: 'Defines threshold for API Requests to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  webhooks_threshold:
+    description: 'Defines threshold for Webhooks to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  issues_threshold:
+    description: 'Defines threshold for Issues to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  prs_threshold:
+    description: 'Defines threshold for Pull Requests to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  actions_threshold:
+    description: 'Defines threshold for Actions to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  packages_threshold:
+    description: 'Defines threshold for Packages to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  pages_threshold:
+    description: 'Defines threshold for Pages to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  codespaces_threshold:
+    description: 'Defines threshold for Codespaces to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+  copilot_threshold:
+    description: 'Defines threshold for Copilot to fail the job (operational, degraded_performance, partial_outage or major_outage)'
+    required: false
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
