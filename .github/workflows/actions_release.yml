@@ -14,7 +14,8 @@ on:
       yarn_version:
         required: false
         type: string
-
+        default: "3.6.3"
+        
 permissions:
   contents: read
 

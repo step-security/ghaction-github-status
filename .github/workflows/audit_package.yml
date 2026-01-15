@@ -20,10 +20,11 @@ on:
         description: "Specify package manager if available (npm or yarn or pnpm)"
         required: false
         type: string
-        default: "npm"
+        default: "yarn"
       yarn_version:
         required: false
         type: string
+        default: "3.6.3"
   schedule:
     - cron: "0 0 * * 1"
 
