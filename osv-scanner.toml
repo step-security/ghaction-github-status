@@ -1,8 +1,4 @@
 [[IgnoredVulns]]
-id = "GHSA-v6h2-p8h4-qcjw"
-reason = "brace-expansion is dev dependency only (eslint/jest), not bundled in dist"
-
-[[IgnoredVulns]]
 id = "GHSA-2p57-rm9w-gvfp"
 reason = "ip is dev dependency only (node-gyp), not bundled in dist"
 
