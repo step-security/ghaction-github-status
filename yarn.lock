@@ -3718,11 +3718,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^5.0.1":
-  version: 5.1.6
-  resolution: "minimatch@npm:5.1.6"
+  version: 5.1.8
+  resolution: "minimatch@npm:5.1.8"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: 7564208ef81d7065a370f788d337cd80a689e981042cb9a1d0e6580b6c6a8c9279eba80010516e258835a988363f99f54a6f711a315089b8b42694f5da9d0d77
+  checksum: e8c0e8d97d1c69f2b9b5173936f0064f0452ba9e05afa7ff104aa27175686dc6c3a24f7726f7a8763ddb89c79c274ef334ae1797c065ed9eb3f02af14e6b816b
   languageName: node
   linkType: hard
 
