@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/ghaction-github-status",
+   "upstream_full_repo_name": "crazy-max/ghaction-github-status",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v5.0.0",
+     "created_at": "2026-04-08T06:06:13Z",
+     "published_at": "2026-04-15T17:42:42Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
